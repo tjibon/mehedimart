@@ -1,0 +1,127 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+ /* Header Menu Hide Media Css */
+.primari-menu{
+    display: none;
+}
+.navbar-toggler{
+    display: none;
+}
+.dropdown-menu[data-bs-popper] {
+ top: 135%;
+ left: -84px;
+ margin-top: 0.125rem;
+}
+.form-control {
+ width: 90%;
+}
+.navbar-brand {
+	margin-right: 0 !important;
+}
+
+.sidebar{
+    margin-left: -250px;
+    position: fixed;
+    top:42px;
+    left: 0; 
+ }
+.main-content-area{
+   margin-left: 0 !important;
+   padding-right: 0 !important;
+ }
+ #ckeck:checked ~ .sidebar{
+    margin-left: 0;
+  }
+
+
+
+
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* Header Menu Hide Media Css */
+.primari-menu{
+    display: none;
+}
+.navbar-toggler{
+    display: none;
+}
+.dropdown-menu[data-bs-popper] {
+ top: 135%;
+ left: -84px;
+ margin-top: 0.125rem;
+}
+.form-control {
+ width: 97%;
+}
+.sidebar{
+   margin-left: -250px;
+}
+  .main-content-area{
+     margin-left: 0 !important;
+     padding-right: 0 !important;
+}
+
+
+
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* Header Menu Hide Media Css */
+.primari-menu{
+       display: none;
+   }
+.navbar-toggler{
+       display: none;
+   }
+.dropdown-menu[data-bs-popper] {
+	top: 135%;
+	left: -84px;
+	margin-top: 0.125rem;
+   }
+.form-control {
+	width: 97%;
+   }
+
+
+
+
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/* ===========Main Header Media Css Start */
+.form-control{
+    width:400px;
+}
+.primari-menu li a{
+    padding:10px !important;
+}
+/* ===========Main Header Media Css end */
+
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+/* ===========Main Header Media Css Start */
+.form-control{
+    width:500px;
+}
+.primari-menu li a{
+    padding:10px !important;
+}
+/* ===========Main Header Media Css end */
+
+ }
